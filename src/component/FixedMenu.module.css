@@ -1,11 +1,12 @@
 .box {
     position: fixed;
-    top: 0%;
-    left: 0%;
+    display: inline-block;
     background: rgba(36, 36, 36, 0.747);
     
     padding: 20px 50px;
     margin:0px 0px;
+
+    right: 80%;
 }
 
 .btn{

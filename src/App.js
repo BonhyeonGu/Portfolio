@@ -5,12 +5,8 @@ import Content from './component/Content';
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <Content />
-      </div>
-      <div className="menu">
-        <FixedMenu />
-      </div>
+      <div className="a"><FixedMenu /></div>
+      <div className="b"><Content /></div>
     </div>
   );
 }
