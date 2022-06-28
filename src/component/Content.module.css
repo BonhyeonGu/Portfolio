@@ -1,0 +1,10 @@
+.box {
+    position: relative;
+    display: inline-block;
+    top: 0%;
+    left: 227px;
+    background: rgba(214, 214, 214, 0.747);
+
+    padding: 100px 400px;
+    margin:0px 0px;
+}
