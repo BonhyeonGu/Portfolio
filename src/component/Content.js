@@ -2,9 +2,7 @@ import styles from "./Content.module.css";
 import CAbout from './CAbout.js';
 import CProject from './CProject.js';
 export default function Content() {
-    return <div>
-        <div className={styles.fake}></div>
-        <div className={styles.box}>
+    return <div className={styles.box}>
         <div id="Home">
             <CAbout />
         </div>
@@ -20,6 +18,5 @@ export default function Content() {
         <div id="Contact">
             <h2>5</h2>
         </div>
-    </div>
     </div>
 }

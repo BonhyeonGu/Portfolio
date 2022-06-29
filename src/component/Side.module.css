@@ -1,0 +1,7 @@
+.box {
+    position: relative;
+    background: rgba(81, 81, 81, 0.747);
+    z-index: 15;
+    width: 10px;
+    height: 100%;
+}

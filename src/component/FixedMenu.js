@@ -3,7 +3,7 @@ import { Link } from "react-scroll"
 export default function FixedMenu() {
     return <div className={styles.box}>
         <img></img>
-        <div className={styles.text}>
+        <div className={styles.titleText}>
             BonhyeonGu
         </div>
         <Link to="About" spy={true} smooth={true}>

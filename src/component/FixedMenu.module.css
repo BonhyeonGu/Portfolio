@@ -1,18 +1,16 @@
 .box {
     position: fixed;
-    display: inline-block;
-    background: rgba(36, 36, 36, 0.747);
-    
-    padding: 20px 50px;
-    margin:0px 0px;
-
-    right: 80%;
+    background: rgba(247, 251, 255, 0.747);
+    z-index: 20;
+    top: 0%;
+    width: 250px;
+    height: 100%;
 }
 
 .btn{
-    padding: 15px 30px;
+    padding: 15px 92px;
     margin:10px 4px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;

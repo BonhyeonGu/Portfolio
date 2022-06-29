@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.menu {
-  
+.boxs {
+  position: relative;
+  display: inline-block;
 }
 
 .App-logo {

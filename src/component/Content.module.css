@@ -1,8 +1,10 @@
 .box {
-    position: static;
-    display: inline-block;
-    background: rgba(214, 214, 214, 0.747);
+    position: relative;
+    background: rgba(248, 248, 248, 0.747);
+    z-index: 10;
+    
+    width: 800px;
+    height: 100%;
 
-    padding: 100px 400px;
-    margin:0px 0px;
+    text-align: left;
 }
