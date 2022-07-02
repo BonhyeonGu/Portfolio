@@ -2,7 +2,7 @@ import styles from "./FixedMenu.module.css";
 import { Link } from "react-scroll"
 export default function FixedMenu() {
     return <div className={styles.box}>
-        <img></img>
+        <img className={styles.profile} src="img/profile.png"></img>
         <div className={styles.titleText}>
             BonhyeonGu
         </div>

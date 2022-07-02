@@ -7,6 +7,12 @@
     height: 100%;
 }
 
+.profile {
+    width: 200px;
+    padding: 30px 20px;
+    margin:10px 4px;
+}
+
 .btn{
     padding: 15px 92px;
     margin:10px 4px;
