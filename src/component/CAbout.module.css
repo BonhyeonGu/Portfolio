@@ -1,3 +1,9 @@
+.box {
+    position :relative;
+}
+
 .img {
+    top: -21px;
+    position: absolute;
     width: 800px;
 }

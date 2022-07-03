@@ -1,5 +1,6 @@
 import styles from "./Content.module.css";
 import CAbout from './CAbout.js';
+import CTeck from './CTeck.js';
 import CProject from './CProject.js';
 export default function Content() {
     return <div className={styles.box}>
