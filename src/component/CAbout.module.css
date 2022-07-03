@@ -5,5 +5,18 @@
 .img {
     top: -21px;
     position: absolute;
-    width: 800px;
+    width: auto;
+    padding: 0px 0px;
+    margin:0px 2px;
+}
+
+.fake {
+    height: 280px;
+    position: relative;
+}
+
+.texts {
+    position: relative;
+    color: #9ca19d;
+    font-size: 20px;
 }

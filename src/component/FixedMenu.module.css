@@ -1,6 +1,6 @@
 .box {
     position: fixed;
-    background: rgb(255, 255, 255);
+    background: #313335;
     z-index: 20;
     top: 0%;
     width: 250px;
@@ -9,7 +9,7 @@
 
 .profile {
     width: 150px;
-    padding: 30px 20px;
+    padding: 30px 0px;
     margin:10px 4px;
 }
 
@@ -22,7 +22,7 @@
 .btn{
     padding: 15px 92px;
     margin:10px 4px;
-    color: rgb(0, 0, 0);
+    color: #bbbbbb;
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;

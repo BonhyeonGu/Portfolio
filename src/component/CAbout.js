@@ -51,6 +51,8 @@ export default function CAbout() {
         <FadeInOut show={show2} duration={500} style={extraStyles}>
           <img src="img/a2.png" className={styles.img} />
         </FadeInOut>
+        <div className={styles.fake} />
+        <div className={styles.texts}>반갑습니다.  </div>
       </div> 
     )
 }
