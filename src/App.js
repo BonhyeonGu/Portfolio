@@ -7,7 +7,7 @@ import React, {useState, useEffect, useRef} from 'react';
 
 
 function App() {
-  useEffect(() => { document.body.style.backgroundColor = '#2b2b2b' }, [])
+  useEffect(() => { document.body.style.backgroundColor = '#ffffff' }, [])
   return (
     <div className="App">
       <div className="boxs"><FixedMenu /></div>

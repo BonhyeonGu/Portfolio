@@ -3,9 +3,9 @@ import { Link } from "react-scroll"
 export default function FixedMenu() {
     return <div className={styles.box}>
         <img className={styles.profile} src="img/profile.png"></img>
-        <div className={styles.titleText}>
-            BonhyeonGu
-        </div>
+        <div className={styles.namekr}>구본현</div>
+        <div className={styles.nameen}>(Bonhyeon Gu)</div>
+        <div className={styles.fake} />
         <Link to="About" spy={true} smooth={true}>
             <a href="#" className={styles.btn}>About</a>
         </Link>
