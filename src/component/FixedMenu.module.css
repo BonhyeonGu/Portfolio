@@ -11,7 +11,7 @@
     width: 150px;
     padding: 50px 0px;
     margin:10px 4px;
-}
+}   
 
 .titleText {
     font-size: 20px;
@@ -34,7 +34,7 @@
     position: relative;
     text-decoration: none;
     display:inline-block;
-    font-size: 80%;
+    font-size: 90%;
 
     border:1px solid transparent; 
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
