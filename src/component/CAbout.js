@@ -56,7 +56,7 @@ export default function CAbout() {
             <hr />
             <a href="https://github.com/BonhyeonGu" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp; 
             <a href="https://docs.9bon.org/" target="_blank"><img src="https://img.shields.io/badge/dev_blog-000000?style=for-the-badge&logo=hugo&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
-            <a href="https://github.com/BonhyeonGu" target="_blank"><img src="https://img.shields.io/badge/youtube-000000?style=for-the-badge&logo=youtube&logoColor=white" className={styles.shield} /></a>
+            <a href="https://www.youtube.com/channel/UCAEuOSt3IFWM1ga63-KZrLA" target="_blank"><img src="https://img.shields.io/badge/youtube-000000?style=for-the-badge&logo=youtube&logoColor=white" className={styles.shield} /></a>
             <hr />
             <div className={styles.texts}>
                 일편단심 네트워크-서버 프로그래밍 환경 공부를 하고 있습니다. <br /><br />
