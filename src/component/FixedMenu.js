@@ -10,10 +10,6 @@ export default function FixedMenu() {
             <a href="#" className={styles.btn}>About</a>
         </Link>
         <br />
-        <Link to="Teck" spy={true} smooth={true}>
-            <a href="#" className={styles.btn}>Teck</a>
-        </Link>
-        <br />
         <Link to="Project" spy={true} smooth={true}>
             <a href="#" className={styles.btn}>Project</a>
         </Link>

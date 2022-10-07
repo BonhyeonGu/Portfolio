@@ -59,9 +59,9 @@ export default function CAbout() {
             <a href="https://github.com/BonhyeonGu" target="_blank"><img src="https://img.shields.io/badge/youtube-000000?style=for-the-badge&logo=youtube&logoColor=white" className={styles.shield} /></a>
             <hr />
             <div className={styles.texts}>
-                일편단심 네트워크-서버 프로그래밍 전공을 하고 있습니다. Quagga, Iptable를 사용한 망 구축, 분리<br />
-                Samba, Bind9, AD를 이용한 DC, 그리고 이에 맞는 각종 서비스를 만들어가고 있습니다.<br />
-                
+                일편단심 네트워크-서버 프로그래밍 환경 공부를 하고 있습니다. <br /><br />
+                Quagga, Iptable를 사용한 망 구축, 분리<br />
+                Samba, Bind9, AD를 이용한 DC Trust, Kubeflow의 ML-OPS를 다루고 있습니다.<br />
             </div>
         </div>
     )

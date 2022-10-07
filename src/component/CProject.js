@@ -1,3 +1,10 @@
+import styles from "./CProject.module.css";
+import React, {useState, useEffect, useRef} from 'react';
+
 export default function CProject() {
-    return <p> 이게되네 </p>;
+    return (
+        <div className={styles.box}>
+            
+        </div>
+    );
 }
