@@ -1,10 +1,49 @@
 .box {
-    top: 120px;
+    top: 100px;
     position: relative;
+}
+
+.title {
+    position: relative;
+    color: #1e211c;
+    font-size: 25px;
 }
 
 .texts {
     position: relative;
     color: #2c2c2c;
     font-size: 20px;
+}
+
+.thum {
+    display: inline-block;
+    width: 360px;
+    height: 300px;
+    left: 10px;
+}
+
+.hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.589);
+
+    width: 360px;
+    height: 300px;
+    animation-duration: 1s;
+    animation-name: fd;
+}
+
+.unHover {
+    color: rgba(255, 255, 255, 0);
+    width: 360px;
+    height: 300px;
+}
+
+@keyframes fd {
+    0% {
+      opacity: 0; 
+    }
+
+    100% {
+      opacity: 1;
+    }
 }

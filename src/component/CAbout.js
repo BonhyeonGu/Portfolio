@@ -24,7 +24,6 @@ export default function CAbout() {
     return (
         <div className={styles.box}>
             {/*<div className={styles.fake} />*/}
-            <br /><br />
             <div className="slide-container">
               <Fade>
               {slideImages.map((slideImage, index)=> (
