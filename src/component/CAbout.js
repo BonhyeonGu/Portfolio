@@ -1,8 +1,6 @@
 import styles from "./CAbout.module.css";
 import React, {useState, useEffect, useRef} from 'react';
-import FadeInOut from "./FadeInOut";
 import Typewriter from 'typewriter-effect';
-import ReactMarkdown from 'react-markdown';
 
 export default function CAbout() {
     const [show, setShow] = useState(true);
