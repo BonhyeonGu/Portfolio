@@ -10,7 +10,6 @@ export default function Content() {
             <CProject />
         </div>
         <div id="Contact">
-            <h2>5</h2>
         </div>
     </div>
 }

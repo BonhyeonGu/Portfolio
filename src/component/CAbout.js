@@ -2,46 +2,42 @@ import styles from "./CAbout.module.css";
 import React, {useState, useEffect, useRef} from 'react';
 import Typewriter from 'typewriter-effect';
 
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+const slideImages = [
+  {
+    url: 'img/a1.png',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'img/a2.png',
+    caption: 'Slide 2'
+  },
+  {
+    url: 'img/a3.png',
+    caption: 'Slide 3'
+  },
+];
+
 export default function CAbout() {
-    const [show, setShow] = useState(true);
-    const toggleShow = () => setShow(!show);
-    const extraStyles = {
-      // position: "fixed",
-      // top: "30px",
-      // left: 0,
-      // right: 0,
-      // bottom: 0,
-      // background: "rgba(0, 0, 0, 0.4)",
-      // color: "#FFF"
-    };
-    const useInterval = (callback, delay) => {
-        const savedCallback = useRef();
-      
-        // Remember the latest callback.
-        useEffect(() => {
-          savedCallback.current = callback;
-        }, [callback]);
-      
-        // Set up the interval.
-        useEffect(() => {
-          function tick() {
-            savedCallback.current();
-          }
-          if (delay !== null) {
-            let id = setInterval(tick, delay);
-            return () => clearInterval(id);
-          }
-        }, [delay]);
-    }
-
-    useInterval(() => {
-      toggleShow();
-    }, 2000)
-
     return (
         <div className={styles.box}>
-            <div className={styles.fake} />
-            <img src="img/a1.png" className={styles.img} />
+            {/*<div className={styles.fake} />*/}
+            <br /><br />
+            <div className="slide-container">
+              <Fade>
+              {slideImages.map((slideImage, index)=> (
+                  <div className="each-fade" key={index}>
+                    <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+                      <div className={styles.fakeImg} />
+                    </div>
+                  </div>
+              ))} 
+              </Fade>
+            </div>
+            <br />
+            {/*<img src="img/a1.png" className={styles.img} />*/}
             <div className={styles.title}><Typewriter
             onInit={(typewriter) => {
             typewriter.typeString('반갑습니다. 배고픈')
