@@ -18,24 +18,39 @@
 .thum {
     display: inline-block;
     width: 360px;
-    height: 300px;
-    left: 10px;
+    height: 200px;
+    border: 1.2px solid rgb(136, 136, 136);
+    background-size: 360px 200px;
 }
 
-.hover {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.589);
-
+.thumIn {
+    position: absolute;
     width: 360px;
-    height: 300px;
+    height: 200px;
+    color: rgba(255, 255, 255, 0);
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.thumIn:hover {
+    color: rgb(255, 255, 255);
     animation-duration: 1s;
     animation-name: fd;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
-.unHover {
-    color: rgba(255, 255, 255, 0);
-    width: 360px;
-    height: 300px;
+.thumIn1:hover {
+    animation-duration: 1s;
+    animation-name: fd;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b12.png');
+}
+
+.thumIn2:hover {
+    animation-duration: 1s;
+    animation-name: fd;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b22.png');
 }
 
 @keyframes fd {
