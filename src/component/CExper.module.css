@@ -1,0 +1,61 @@
+.box {
+    top: 180px;
+    position: relative;
+}
+
+.title {
+    position: relative;
+    color: #1e211c;
+    font-size: 25px;
+}
+
+.texts {
+    position: relative;
+    color: #2c2c2c;
+    font-size: 20px;
+}
+
+.thum {
+    width: 800px;
+    height: 160px;
+    border: 1.2px solid rgb(136, 136, 136);
+    background-size: 800px 160px;
+}
+
+.thumOut {
+    position: absolute;
+    width: 800px;
+    height: 160px;
+    color: rgb(255, 255, 255);
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.thumIn {
+    position: absolute;
+    width: 800px;
+    height: 160px;
+    color: rgb(255, 255, 255);
+    animation-duration: 1s;
+    animation-name: fd;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+@keyframes fd {
+    0% {
+      opacity: 0; 
+    }
+
+    100% {
+      opacity: 1;
+    }
+}
