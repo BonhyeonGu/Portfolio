@@ -23,34 +23,51 @@
     background-size: 360px 200px;
 }
 
+.thumOut {
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+
+    font-size: 1.2em;
+    text-shadow: -1.3px 0 #000, 0 1.3px #000, 1.3px 0 #000, 0 -1.3px #000;
+}
+
 .thumIn {
     position: absolute;
     width: 360px;
     height: 200px;
-    color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    animation-duration: 1s;
+    animation-name: fd;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    background-color: rgba(0, 0, 0, 0.8);
 
     display : flex;
     justify-content : center;
     align-items : center;
 }
 
-.thumIn:hover {
-    color: rgb(255, 255, 255);
-    animation-duration: 1s;
-    animation-name: fd;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-}
-
-.thumIn1:hover {
+.thumIn1 {
     animation-duration: 1s;
     animation-name: fd;
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b12.png');
 }
 
-.thumIn2:hover {
+.thumIn2 {
     animation-duration: 1s;
     animation-name: fd;
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b22.png');
+}
+
+.thumIn4 {
+    animation-duration: 1s;
+    animation-name: fd;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b42.png');
 }
 
 @keyframes fd {
