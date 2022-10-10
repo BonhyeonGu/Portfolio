@@ -17,7 +17,7 @@
 
 .thum {
     width: 800px;
-    height: 160px;
+    height: 120px;
     border: 1.2px solid rgb(136, 136, 136);
     background-size: 800px 160px;
 }
@@ -25,7 +25,7 @@
 .thumOut {
     position: absolute;
     width: 800px;
-    height: 160px;
+    height: 120px;
     color: rgb(255, 255, 255);
 
     display : flex;
@@ -38,7 +38,7 @@
 .thumIn {
     position: absolute;
     width: 800px;
-    height: 160px;
+    height: 120px;
     color: rgb(255, 255, 255);
     animation-duration: 1s;
     animation-name: fd;
