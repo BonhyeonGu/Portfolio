@@ -11,6 +11,10 @@ export default function CExper() {
         height: "10px",
         display: "inline-block"
     }
+    const endHeight = {
+        height: "160px",
+        display: "inline-block"
+    }
     const [hover, setHover] = useState(0);
     return (
         <div className={styles.box}>
@@ -20,16 +24,16 @@ export default function CExper() {
             </div>
             <hr />
 
-            <div className={styles.texts}>저의 발자취 입니다.<br /><br /></div>
+            <div className={styles.texts}>저의 발자취 입니다. 더 많은 경험을 위해 나아가고 있습니다.<br /><br /></div>
             <div
                 onMouseEnter={() => setHover(1)} // 마우스엔터(호버)시 키값이 저장된다
                 onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                style={{'backgroundImage': `url(img/c1.png)`}}
+                style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/c1.png)`}}
                 className={styles.thum}
             >
                 {hover != 1 && (
                     <div className={styles.thumOut}>
-                        2014 부산지방대회 컴퓨터정보통신 과목 은상
+                        2014 부산지방대회 컴퓨터정보통신 과목 2위
                     </div>
                 )}
                 {hover == 1 && (
@@ -43,7 +47,7 @@ export default function CExper() {
             <div
                 onMouseEnter={() => setHover(2)} // 마우스엔터(호버)시 키값이 저장된다
                 onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                style={{'backgroundImage': `url(img/c2.png)`}}
+                style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/c2.png)`}}
                 className={styles.thum}
             >
                 {hover != 2 && (
@@ -77,6 +81,7 @@ export default function CExper() {
                     </div>
                 )}
             </div>
+            <div style={endHeight} />
         </div>
     );
 }

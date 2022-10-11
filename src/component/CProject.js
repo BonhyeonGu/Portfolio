@@ -12,6 +12,10 @@ export default function CProject() {
         height: "10px",
         display: "inline-block"
     }
+    const endHeight = {
+        height: "160px",
+        display: "inline-block"
+    }
     return (
         <div className={styles.box}>
             <hr />
@@ -26,7 +30,7 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(1)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `url(img/b11.png)`}}
+                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b11.png)`}}
                     className={styles.thum}
                 >
                     {hover != 1 && (
@@ -44,7 +48,7 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(2)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `url(img/b21.png)`}}
+                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b21.png)`}}
                     className={styles.thum}
                 >
                     {hover != 2 && (
@@ -54,7 +58,7 @@ export default function CProject() {
                     )}
                     {hover == 2 && (
                         <div className={`${styles.thumIn} ${styles.thumIn2}` } onClick={() => window.open('https://github.com/BonhyeonGu/ShowPoolWeb_Youtube_KnowledgeGraph', '_blank')}>
-                            주제 선별을 사용하여 많은 영상을 그래프 데이터베이스로 구축하여 해당 쿼리를 이용하는 프론트 페이지를 만들었습니다. 이 또한 앞과 다른 연구실 과제로 이전되었습니다.
+                            주제 선별을 사용하여 많은 영상의 정보를 그래프 DB로 구축하고 해당 DB를 이용하는 프론트 페이지를 만들었습니다. 이 또한 앞과 다른 연구실 과제로 이전되었습니다.
                         </div>
                     )}
                 </div>
@@ -64,7 +68,7 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(3)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `url(img/b21.png)`}}
+                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b21.png)`}}
                     className={styles.thum}
                 >
                     {hover != 3 && (
@@ -82,7 +86,7 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(4)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `url(img/b41.png)`}}
+                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b41.png)`}}
                     className={styles.thum}
                 >
                     {hover != 4 && (
@@ -97,6 +101,7 @@ export default function CProject() {
                     )}
                 </div>
             </div>
+            <div style={endHeight} />
         </div>
     );
 }

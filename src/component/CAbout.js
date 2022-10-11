@@ -5,35 +5,40 @@ import Typewriter from 'typewriter-effect';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
-const slideImages = [
-  {
-    url: 'img/a1.png',
-    caption: 'Slide 1',
-  },
-  {
-    url: 'img/a2.png',
-    caption: 'Slide 2'
-  },
-  {
-    url: 'img/a3.png',
-    caption: 'Slide 3'
-  },
-];
+
 
 export default function CAbout() {
+    const slideImages = [
+        {
+            url: 'img/a1.png',
+            caption: 'Slide 1',
+        },
+        {
+            url: 'img/a2.png',
+            caption: 'Slide 2'
+        },
+        {
+            url: 'img/a3.png',
+            caption: 'Slide 3'
+        },
+    ];
+    const endHeight = {
+        height: "160px",
+        display: "inline-block"
+    }
     return (
         <div className={styles.box}>
             {/*<div className={styles.fake} />*/}
             <div className="slide-container">
-              <Fade>
-              {slideImages.map((slideImage, index)=> (
-                  <div className="each-fade" key={index}>
-                    <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-                      <div className={styles.fakeImg} />
-                    </div>
-                  </div>
-              ))} 
-              </Fade>
+                <Fade>
+                    {slideImages.map((slideImage, index)=> (
+                        <div className="each-fade" key={index}>
+                            <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+                                <div className={styles.fakeImg} />
+                            </div>
+                        </div>
+                    ))} 
+                </Fade>
             </div>
             <br />
             {/*<img src="img/a1.png" className={styles.img} />*/}
@@ -53,9 +58,9 @@ export default function CAbout() {
             <hr />
             <div className={styles.texts}>
                 일편단심 네트워크-서버 프로그래밍 환경 공부를 하고 있습니다. <br /><br />
-                Quagga, Iptable를 사용한 망 구축, 분리<br />
-                Samba, Bind9, AD를 이용한 DC Trust, Kubeflow의 ML-OPS를 다루고 있습니다.<br />
+                기본적인 서버 구축부터 백엔드 개발을 공부하고 있으며 최근엔 대용량 처리 서버 구현과 관련하여<br /> 프로젝트에 참여하고 있습니다.
             </div>
+            <div style={endHeight} />
         </div>
     )
 }
