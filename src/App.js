@@ -10,7 +10,7 @@ function App() {
   useEffect(() => { document.body.style.backgroundColor = '#ffffff' }, [])
   return (
     <div className="App">
-      <div className="boxs"><FixedMenu /></div>
+      <div className="boxs boxsNoMobile"><FixedMenu /></div>
       <div className="boxs"><FakeMenu /></div>
       <div className="boxs"><Side /></div>
       <div className="boxs"><Content /></div>

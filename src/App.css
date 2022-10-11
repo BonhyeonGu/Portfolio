@@ -7,6 +7,12 @@
   display: inline-block;
 }
 
+@media screen and (max-width: 1000px) {
+  .boxsNoMobile {
+    display: none;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
