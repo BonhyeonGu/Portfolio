@@ -28,7 +28,7 @@ export default function CContact() {
                 <i class="fas fa-home fa-2x"></i> 부산광역시 동래구<br /><br />
                 </div>
                 <div style={tempWidth} />
-                <div className={styles.boxSubImg} style={{'backgroundImage': `url(img/b21.png)`}}></div>
+                <div className={styles.boxSubImg} style={{'backgroundImage': `url(img/d.png)`}}></div>
             </div>
             <div style={endHeight} />
         </div>

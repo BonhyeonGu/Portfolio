@@ -68,7 +68,7 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(3)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b21.png)`}}
+                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b31.png)`}}
                     className={styles.thum}
                 >
                     {hover != 3 && (
@@ -77,7 +77,7 @@ export default function CProject() {
                         </div>
                     )}
                     {hover == 3 && (
-                        <div className={`${styles.thumIn} ${styles.thumIn2}` } onClick={() => window.open('https://github.com/BonhyeonGu/3dcityWebLab', '_blank')}>
+                        <div className={`${styles.thumIn} ${styles.thumIn3}` } onClick={() => window.open('https://github.com/BonhyeonGu/3dcityWebLab', '_blank')}>
                             3DCityDB를 포함한 각종 서비스 구현을 통해 미리 준비된 여러 도시 정보들을 올리고 확인할 수 있는 플랫폼을 제작했습니다. 해당 플랫폼은 국가 사업에 포함되었습니다.
                         </div>
                     )}

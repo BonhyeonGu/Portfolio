@@ -12,7 +12,7 @@
     position: relative;
     color: #2c2c2c;
     font-size: 20px;
-    font-family: "hyunygothic";
+    #font-family: "hyunygothic";
 }
 
 .boxSubText {
@@ -22,6 +22,7 @@
 
     width: 360px;
     height: 400px;
+    padding : 100px 0;
 }
 
 .boxSubImg {
@@ -32,4 +33,5 @@
     width: 400px;
     height: 400px;
     border: 1.2px solid rgb(136, 136, 136);
+    background-size: 400px 400px;
 }

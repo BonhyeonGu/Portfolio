@@ -63,6 +63,13 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b22.png');
 }
 
+.thumIn3 {
+    animation-duration: 1s;
+    animation-name: fd;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b32.png');
+}
+
+
 .thumIn4 {
     animation-duration: 1s;
     animation-name: fd;
