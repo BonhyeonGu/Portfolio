@@ -23,7 +23,7 @@ export default function CAbout() {
         },
     ];
     const endHeight = {
-        height: "160px",
+        height: "140px",
         display: "inline-block"
     }
     return (
@@ -57,8 +57,7 @@ export default function CAbout() {
             <a href="https://www.youtube.com/channel/UCAEuOSt3IFWM1ga63-KZrLA" target="_blank"><img src="https://img.shields.io/badge/youtube-000000?style=for-the-badge&logo=youtube&logoColor=white" className={styles.shield} /></a>
             <hr />
             <div className={styles.texts}>
-                일편단심 네트워크-서버 프로그래밍 환경 공부를 하고 있습니다. <br /><br />
-                기본적인 서버 구축부터 백엔드 개발을 공부하고 있으며 최근엔 대용량 처리 서버 구현과 관련하여<br /> 프로젝트에 참여하고 있습니다.
+                일편단심 네트워크-서버 환경, 개발 공부를 하고 있습니다. <br /><br />
             </div>
             <div style={endHeight} />
         </div>

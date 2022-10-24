@@ -16,16 +16,16 @@
 
 .thum {
     display: inline-block;
-    width: 360px;
-    height: 200px;
+    width: 380px;
+    height: 220px;
     border: 1.2px solid rgb(136, 136, 136);
-    background-size: 360px 200px;
+    background-size: 380px 220px;
 }
 
 .thumOut {
     position: absolute;
-    width: 360px;
-    height: 200px;
+    width: 380px;
+    height: 220px;
     color: rgb(255, 255, 255);
 
     display : flex;
@@ -38,8 +38,8 @@
 
 .thumIn {
     position: absolute;
-    width: 360px;
-    height: 200px;
+    width: 380px;
+    height: 220px;
     color: rgb(255, 255, 255);
     animation-duration: 1s;
     animation-name: fd;

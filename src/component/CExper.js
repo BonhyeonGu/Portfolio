@@ -12,7 +12,7 @@ export default function CExper() {
         display: "inline-block"
     }
     const endHeight = {
-        height: "160px",
+        height: "140px",
         display: "inline-block"
     }
     const [hover, setHover] = useState(0);

@@ -54,6 +54,16 @@
     background-color: rgba(0, 0, 0, 0.507);
 }
 
+.boxInfo {
+    width: 300px;
+    border-style: solid none solid none;
+    border-color: rgb(150, 150, 150);
+}
+
+.infoText {
+    font-size: 1.3em
+}
+
 @keyframes fd {
     0% {
       opacity: 0; 
