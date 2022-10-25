@@ -40,7 +40,7 @@ export default function CProject() {
                     )}
                     {hover == 1 && (
                         <div className={`${styles.thumIn} ${styles.thumIn1}` } onClick={() => window.open('https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams', '_blank')}>
-                            위키피디아 전체 데이터를 이용하여, 유튜브 영상링크를 입력하면 m분마다 주제를 출력해주는 서비스입니다. 해당 프로젝트는 우수성을 인정받아 다른 연구실 과제로 이전되었습니다.
+                            위키피디아 전체 데이터를 이용하여, 유튜브 영상링크를 입력하면 주제를 출력해주는 서비스입니다. 딥러닝이 아닌, 지식추론의 이론입니다.
                         </div>
                     )}
                 </div>
@@ -58,7 +58,7 @@ export default function CProject() {
                     )}
                     {hover == 2 && (
                         <div className={`${styles.thumIn} ${styles.thumIn2}` } onClick={() => window.open('https://github.com/BonhyeonGu/ShowPoolWeb_Youtube_KnowledgeGraph', '_blank')}>
-                            주제 선별을 사용하여 많은 영상의 정보를 그래프 DB로 구축하고 해당 DB를 이용하는 프론트 페이지를 만들었습니다. 이 또한 앞과 다른 연구실 과제로 이전되었습니다.
+                            주제 선별을 사용하여 다양한 영상정보를 Neo4jDB로 구성하고 웹서비스를 서비스 했습니다. 또한 해당 정보를 사용하여 추천알고리즘을 구성했습니다.
                         </div>
                     )}
                 </div>

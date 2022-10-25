@@ -58,6 +58,8 @@
     width: 300px;
     border-style: solid none solid none;
     border-color: rgb(150, 150, 150);
+    display: flex;
+    align-items: center;
 }
 
 .infoText {
