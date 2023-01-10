@@ -57,7 +57,7 @@ export default function CAbout() {
             <a href="https://www.youtube.com/channel/UCAEuOSt3IFWM1ga63-KZrLA" target="_blank"><img src="https://img.shields.io/badge/youtube-000000?style=for-the-badge&logo=youtube&logoColor=white" className={styles.shield} /></a>
             <hr />
             <div className={styles.texts}>
-                일편단심 네트워크-서버 환경, 개발 공부를 하고 있습니다. <br /><br />
+                일편단심 병렬처리, 네트워크-서버 환경개발 공부를 하고 있습니다. <br /><br />
             </div>
             <div style={endHeight} />
         </div>
