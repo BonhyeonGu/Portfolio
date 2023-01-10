@@ -27,7 +27,8 @@
     width: 380px;
     height: 220px;
     color: rgb(255, 255, 255);
-
+    animation-duration: 1s;
+    animation-name: fd;
     display : flex;
     justify-content : center;
     align-items : center;
