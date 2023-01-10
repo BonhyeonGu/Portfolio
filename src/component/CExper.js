@@ -85,7 +85,7 @@ export default function CExper() {
             <div
                 onMouseEnter={() => setHover(4)} // 마우스엔터(호버)시 키값이 저장된다
                 onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                style={{'backgroundImage': `url(img/c3.png)`}}
+                style={{'backgroundImage': `url(img/c4.png)`}}
                 className={styles.thum}
             >
                 {hover != 4 && (
