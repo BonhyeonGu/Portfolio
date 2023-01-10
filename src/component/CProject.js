@@ -34,13 +34,13 @@ export default function CProject() {
                     className={styles.thum}
                 >
                     {hover != 1 && (
-                        <div className={styles.thumOut} onClick={() => window.open('https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams', '_blank')}>
-                            Reasoning over Knowledge
+                        <div className={styles.thumOut} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
+                            Project ROKC
                         </div>
                     )}
                     {hover == 1 && (
-                        <div className={`${styles.thumIn} ${styles.thumIn1}` } onClick={() => window.open('https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams', '_blank')}>
-                            위키피디아 전체 데이터를 이용하여, 유튜브 영상링크를 입력하면 주제를 출력해주는 서비스입니다. 딥러닝이 아닌, 지식추론의 이론입니다.
+                        <div className={`${styles.thumIn} ${styles.thumIn1}` } onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
+                            위키피디아 전체 데이터를 이용하여, 유튜브 영상의 주제를 출력, 관계를 그래프화 해주는 서비스입니다. 딥러닝이 아닌, 지식추론의 이론입니다.
                         </div>
                     )}
                 </div>
