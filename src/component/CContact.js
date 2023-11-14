@@ -3,6 +3,7 @@ import React, {useState, useEffect, useRef} from 'react';
 
 
 export default function CContact() {
+    const [hover, setHover] = useState(false);
     const tempWidth = {
         position: "relative",
         width: "25px",
@@ -30,12 +31,20 @@ export default function CContact() {
                             <i class="fas fa-phone fa-2x"></i>&nbsp;<span className={styles.infoText}></span>
                         </div><br /><br />
                         <div className={styles.boxInfo}>
-                            <i class="fas fa-home fa-2x"></i>&nbsp;<span className={styles.infoText}>부산광역시 동래구</span>
+                            <i class="fas fa-home fa-2x"></i>&nbsp;<span className={styles.infoText}>부산시 동래구</span>
                         </div><br /><br />
                     </div>
                 </div>
                 <div style={tempWidth} />
-                <div className={styles.boxSubImg} style={{'backgroundImage': `url(img/d.png)`}}><div className={styles.boxSubImgTag}>2022.08.25 증설 작업</div></div>
+                <div
+                onMouseEnter={() => setHover(1)}
+                onMouseLeave={() => setHover(0)}
+                style={{'backgroundImage': `url(img/d.png)`}}
+                className={styles.thum}
+                >
+                    <div className={styles.thumOut} style={{ opacity: hover !== 1 ? 1 : 0 }}></div>
+                    <div className={styles.thumIn} style={{ opacity: hover === 1 ? 1 : 0 }}>2022.08.25 서버 증설작업</div>
+                </div>
             </div>
             <div style={endHeight} />
         </div>

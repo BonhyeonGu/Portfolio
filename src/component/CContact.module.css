@@ -33,8 +33,6 @@
     width: 400px;
     height: 400px;
     background-size: 400px 400px;
-
-    
 }
 
 .boxSubImgTag {
@@ -66,12 +64,27 @@
     font-size: 1.3em
 }
 
-@keyframes fd {
-    0% {
-      opacity: 0; 
-    }
+.thum, .thumIn, .thumOut {
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+}
 
-    100% {
-      opacity: 1;
-    }
+.thum {
+    position: relative;
+    display: "inline-block";
+    float: left;
+}
+
+.thumOut, .thumIn {
+    position: absolute;
+    text-align: right;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    transition: opacity 1s ease; /* 서서히 효과 적용 */
+}
+
+.thumIn {
+    background-color: rgba(0, 0, 0, 0.4);
 }
