@@ -3,14 +3,6 @@
     position :relative;
 }
 
-.img {
-    top: 30px;
-    position: absolute;
-    width: auto;
-    padding: 0px 0px;
-    margin:0px 2px;
-}
-
 .fake {
     height: 550px;
     position: relative;
@@ -38,17 +30,21 @@
     font-size: 20px;
 }
 
-.each-slide-effect > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 350px;
-  }
-  
-  .each-slide-effect span {
-    padding: 20px;
-    font-size: 20px;
-    background: #efefef;
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 500px; /* 슬라이드 이미지의 높이에 맞춤 */
     text-align: center;
-  }
+    overflow: hidden; /* 컨테이너 밖의 이미지 숨김 */
+}
+
+.slideImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    opacity: 0; /* 기본적으로 투명 */
+}
