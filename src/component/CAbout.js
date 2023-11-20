@@ -53,7 +53,7 @@ export default function CAbout() {
             typewriter.typeString('반갑습니다. 배고픈')
                 .pauseFor(300)
                 .deleteChars(3)	
-                .typeString('목마른 서버 개발자 <b>구본현</b>입니다.')
+                .typeString('공부에 목마른 개발자 <b>구본현</b>입니다.')
                 .pauseFor(2500)
                 .start();
             }}/></div>
