@@ -22,67 +22,26 @@
     background-size: 380px 220px;
 }
 
-.thumOut {
+.thumOut, .thumIn {
     position: absolute;
     width: 380px;
     height: 220px;
     color: rgb(255, 255, 255);
-    animation-duration: 1s;
-    animation-name: fd;
     display : flex;
     justify-content : center;
     align-items : center;
-
-    font-size: 1.2em;
     text-shadow: -1.3px 0 #000, 0 1.3px #000, 1.3px 0 #000, 0 -1.3px #000;
+    transition: opacity 1s ease; /* 서서히 효과 적용 */
 }
 
-.thumIn {
-    position: absolute;
-    width: 380px;
-    height: 220px;
-    color: rgb(255, 255, 255);
-    animation-duration: 1s;
-    animation-name: fd;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-    background-color: rgba(0, 0, 0, 0.8);
-
-    display : flex;
-    justify-content : center;
-    align-items : center;
-}
-
-.thumIn1 {
-    animation-duration: 1s;
-    animation-name: fd;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b12.png');
-}
-
-.thumIn2 {
-    animation-duration: 1s;
-    animation-name: fd;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b22.png');
+.thumOut {
+    font-size: 1.2em;
 }
 
 .thumIn3 {
-    animation-duration: 1s;
-    animation-name: fd;
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b32.png');
 }
 
-
 .thumIn4 {
-    animation-duration: 1s;
-    animation-name: fd;
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b42.png');
-}
-
-@keyframes fd {
-    0% {
-      opacity: 0; 
-    }
-
-    100% {
-      opacity: 1;
-    }
 }

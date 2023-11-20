@@ -1,6 +1,5 @@
 import styles from "./CProject.module.css";
-import React, {useState, useEffect, useRef} from 'react';
-
+import React, {useState} from 'react';
 
 export default function CProject() {
     const [hover, setHover] = useState(0);
@@ -30,37 +29,29 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(1)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b11.png)`}}
+                    style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), url(img/b11.png)`}}
                     className={styles.thum}
                 >
-                    {hover != 1 && (
-                        <div className={styles.thumOut} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                            Project ROKC
-                        </div>
-                    )}
-                    {hover == 1 && (
-                        <div className={`${styles.thumIn} ${styles.thumIn1}` } onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                            위키피디아 전체 데이터를 이용하여, 유튜브 영상의 주제를 출력, 관계를 그래프화 해주는 서비스입니다. 딥러닝이 아닌, 지식추론의 이론입니다.
-                        </div>
-                    )}
+                    <div className={styles.thumOut} style={{ opacity: hover !== 1 ? 1 : 0 }} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
+                        Project ROKC
+                    </div>
+                    <div className={styles.thumIn} style={{ opacity: hover === 1 ? 1 : 0, backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), url(img/b12.png)`}} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
+                        위키피디아 전체 데이터를 이용하여, 유튜브 영상의 주제를 출력, 관계를 그래프화 해주는 서비스입니다. 딥러닝이 아닌, 지식추론의 이론입니다.
+                    </div>
                 </div>
                 <div style={tempWidth} />
                 <div
                     onMouseEnter={() => setHover(2)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{'backgroundImage': `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(img/b21.png)`}}
+                    style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), url(img/b21.png)`}}
                     className={styles.thum}
                 >
-                    {hover != 2 && (
-                        <div className={styles.thumOut} onClick={() => window.open('https://github.com/BonhyeonGu/ShowPoolWeb_Youtube_KnowledgeGraph', '_blank')}>
-                            ShowPoolWeb Youtube KnowledgeGraph
-                        </div>
-                    )}
-                    {hover == 2 && (
-                        <div className={`${styles.thumIn} ${styles.thumIn2}` } onClick={() => window.open('https://github.com/BonhyeonGu/ShowPoolWeb_Youtube_KnowledgeGraph', '_blank')}>
-                            주제 선별을 사용하여 다양한 영상정보를 Neo4jDB로 구성하고 웹서비스를 서비스 했습니다. 또한 해당 정보를 사용하여 추천알고리즘을 구성했습니다.
-                        </div>
-                    )}
+                    <div className={styles.thumOut} style={{ opacity: hover !== 2 ? 1 : 0 }} onClick={() => window.open('https://github.com/BonhyeonGu/ShowPoolWeb_Youtube_KnowledgeGraph', '_blank')}>
+                        ShowPoolWeb Youtube KnowledgeGraph
+                    </div>
+                    <div className={styles.thumIn} style={{ opacity: hover === 2 ? 1 : 0, backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), url(img/b22.png)`}} onClick={() => window.open('https://github.com/BonhyeonGu/ShowPoolWeb_Youtube_KnowledgeGraph', '_blank')}>
+                        주제 선별을 사용하여 다양한 영상정보를 Neo4jDB로 구성하고 웹서비스를 서비스 했습니다. 또한 해당 정보를 사용하여 추천알고리즘을 구성했습니다.
+                    </div>
                 </div>
             </div>
             <div style={tempHeight} />

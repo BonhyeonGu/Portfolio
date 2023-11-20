@@ -68,7 +68,6 @@ export default function CExper() {
                         교내서버의 권한이 있는 공식 강의 지원, 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 전파했습니다.<br />
                         학생들이 신청한, 또는 팀 내의 프로젝트 서비스들을 K8s, Docker를 이용해 관리했습니다.
                 </div>
-
             </div>
             <div style={tempHeight} />
             <div
@@ -84,7 +83,6 @@ export default function CExper() {
                         Project ROKC의 하위 서비스, 유튜브 영상 지식추론을 통하여<br />
                         교내 Fairday에서 최우수상을 취득 하였습니다.
                 </div>
-
             </div>
             <div style={endHeight} />
         </div>
