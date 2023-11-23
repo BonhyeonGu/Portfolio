@@ -20,6 +20,7 @@
     height: 220px;
     border: 1.2px solid rgb(136, 136, 136);
     background-size: 380px 220px;
+    cursor: pointer;
 }
 
 .thumOut, .thumIn {
@@ -38,10 +39,8 @@
     font-size: 1.2em;
 }
 
-.thumIn3 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b32.png');
-}
-
-.thumIn4 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('../../public/img/b42.png');
+.thumIn {
+    box-sizing: border-box;
+    padding-left: 20px; 
+    padding-right: 20px;
 }

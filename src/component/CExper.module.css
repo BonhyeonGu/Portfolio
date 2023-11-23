@@ -19,6 +19,7 @@
     height: 120px;
     border: 1.2px solid rgb(136, 136, 136);
     background-size: 800px 160px;
+    cursor: default;
 }
 
 .thumOut, .thumIn {

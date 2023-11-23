@@ -22,7 +22,7 @@
 
     width: 360px;
     height: 400px;
-    padding : 100px 0;
+    padding : 50px 0;
 }
 
 .boxSubImg {
@@ -61,7 +61,7 @@
 }
 
 .infoText {
-    font-size: 1.3em
+    font-size: 1.2em
 }
 
 .thum, .thumIn, .thumOut {

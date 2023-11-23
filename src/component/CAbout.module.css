@@ -30,6 +30,17 @@
     font-size: 20px;
 }
 
+.paperBox {
+    position: relative;
+    color: #2c2c2c;
+    font-size: 15px;
+}
+
+.papers {
+    cursor: pointer;
+}
+
+
 .slideshow {
     position: relative;
     width: 100%;

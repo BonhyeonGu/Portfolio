@@ -1,5 +1,5 @@
 import styles from "./CExper.module.css";
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useState} from 'react';
 
 
 export default function CExper() {
@@ -50,8 +50,8 @@ export default function CExper() {
                     2020 창업동아리팀 Pandemic
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 2 ? 1 : 0 }}>
-                        창업팀의 백엔드-서버환경 담당으로 활동했습니다.<br />
-                        RPA 솔루션을 이용하여 아주 많은 웹 정보를 내려받는 환경을 제작했습니다. MS-SQL, IIS, RDP등을 사용했습니다.
+                    창업팀의 백엔드-서버환경 담당으로 활동했습니다. RPA 솔루션을 이용하여 많은 웹 정보를 내려받는 환경을<br />
+                    제작했습니다. MS-SQL, IIS, RDP등을 사용했습니다.
                 </div>
             </div>
             <div style={tempHeight} />
@@ -65,8 +65,8 @@ export default function CExper() {
                     2021 서버팀 BeHarbor 창설
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 3 ? 1 : 0 }}>
-                        교내서버의 권한이 있는 공식 강의 지원, 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 전파했습니다.<br />
-                        학생들이 신청한, 또는 팀 내의 프로젝트 서비스들을 K8s, Docker를 이용해 관리했습니다.
+                    교내서버의 권한이 있는 공식 강의 지원, 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 전파했습니다.<br />
+                    학생들이 신청한, 또는 팀 내의 프로젝트 서비스들을 K8s, Docker를 이용해 관리했습니다.
                 </div>
             </div>
             <div style={tempHeight} />
@@ -80,8 +80,7 @@ export default function CExper() {
                         2022 교내 졸업작품 전시회, Fairday 1위
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 4 ? 1 : 0 }}>
-                        Project ROKC의 하위 서비스, 유튜브 영상 지식추론을 통하여<br />
-                        교내 Fairday에서 최우수상을 취득 하였습니다.
+                        Project ROKC의 하위 서비스, 유튜브 영상 지식추론을 통하여 교내 Fairday에서 최우수상을 취득 하였습니다.
                 </div>
             </div>
             <div style={endHeight} />

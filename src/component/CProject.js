@@ -88,19 +88,19 @@ export default function CProject() {
                 <div
                     onMouseEnter={() => setHover(4)} // 마우스엔터(호버)시 키값이 저장된다
                     onMouseLeave={() => setHover(0)}  // 마우스리브 시에는 키값이 지워진다
-                    style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/b41.png)`}}
+                    style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/b2023-10-27.png)`}}
                     className={styles.thum}
                 >
                     <div className={styles.thumOut} style={{ opacity: hover !== 4 ? 1 : 0 }} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                        Kubeflow
+                        준비중
                     </div>
                     <div className={styles.thumIn}
                         style={{
                             opacity: hover === 4 ? 1 : 0,
-                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/b42.png)`
+                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/b2023-09-12.png)`
                         }}
                         onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                        학교 서버를 여러대 이용, Kubernetes를 이용한 Kuberflow을 배포하여 학생들이 많은 서버의 분산처리-머신러닝 환경을 쉽게 접근할 수 있도록 만들었습니다.
+                        준비중
                     </div>
                 </div>
             </div>
