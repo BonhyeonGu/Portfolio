@@ -32,11 +32,11 @@ export default function CExper() {
                 className={styles.thum}
             >
                 <div className={styles.thumOut} style={{ opacity: hover !== 1 ? 1 : 0 }}>
-                        2014 부산지방대회 컴퓨터정보통신 과목 2위
+                    국제기능올림픽대회 산하 2014 부산지방대회 컴퓨터정보통신 과목 2위
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 1 ? 1 : 0 }}>
-                        지방기능대회를 붙어 1년간 부산지방대표 선수로 활동했습니다.<br />
-                        Quagga, Iptable를 사용한 망 구축, 분리 그리고 Samba, Bind9, AD를 이용한 DC Trust등의 설계를 구현했습니다.
+                    지방기능대회에서 유효한 성적을 거두어 1년간 부산대표 선수로 활동했습니다.<br />
+                    Quagga, Iptable를 사용한 망 구축, 분리 그리고 Samba, Bind9, AD를 이용한 DC Trust등의 설계를 구현했습니다.
                 </div>
             </div>
             <div style={tempHeight} />

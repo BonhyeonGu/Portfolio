@@ -20,7 +20,7 @@
     display: "inline-block";
     float: left;
 
-    width: 360px;
+    width: 290px;
     height: 400px;
     padding : 50px 0;
 }
@@ -53,7 +53,7 @@
 }
 
 .boxInfo {
-    width: 300px;
+    width: 260px;
     border-style: solid none solid none;
     border-color: rgb(150, 150, 150);
     display: flex;
@@ -61,13 +61,13 @@
 }
 
 .infoText {
-    font-size: 1.2em
+    font-size: 1.1em
 }
 
 .thum, .thumIn, .thumOut {
-    width: 200px;
-    height: 200px;
-    background-size: 200px 200px;
+    width: 250px;
+    height: 250px;
+    background-size: 300px 300px;
 }
 
 .thum {
