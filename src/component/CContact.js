@@ -49,7 +49,7 @@ export default function CContact() {
                     <div
                     onMouseEnter={() => setHover(2)}
                     onMouseLeave={() => setHover(0)}
-                    style={{'backgroundImage': `url(img/E.png)`}}
+                    style={{'backgroundImage': `url(img/e.png)`}}
                     className={styles.thum}
                     >
                         <div className={styles.thumOut} style={{ opacity: hover !== 2 ? 1 : 0 }}></div>
