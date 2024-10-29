@@ -12,7 +12,7 @@ export default function CExper() {
         display: "inline-block"
     }
     const endHeight = {
-        height: "140px",
+        height: "100px",
         display: "inline-block"
     }
     const [hover, setHover] = useState(0);
@@ -24,7 +24,7 @@ export default function CExper() {
             </div>
             <hr />
 
-            <div className={styles.texts}>저의 발자취 입니다. 더 많은 경험을 위해 나아가고 있습니다.<br /><br /></div>
+            <div className={styles.texts}><br /><br /></div>
             <div
                 onMouseEnter={() => setHover(1)}
                 onMouseLeave={() => setHover(0)}

@@ -26,7 +26,7 @@ export default function CAbout() {
     }, [currentSlide]); // 의존성 배열에 currentSlide 추가
     
     const endHeight = {
-        height: "140px",
+        height: "100px",
         display: "inline-block"
     }
 
@@ -53,7 +53,7 @@ export default function CAbout() {
             typewriter.typeString('반갑습니다. 배고픈')
                 .pauseFor(300)
                 .deleteChars(3)	
-                .typeString('공부에 목마른 개발자 <b>구본현</b>입니다.')
+                .typeString('공부에 목마른 개발자 <b>구본현</b>입니다. 온톨로지, 네트워크-서버, 개발 공부를 하고 있습니다.')
                 .pauseFor(2500)
                 .start();
             }}/></div>
@@ -62,11 +62,11 @@ export default function CAbout() {
             <a href="https://docs.9bon.org/" target="_blank"><img src="https://img.shields.io/badge/dev_blog-000000?style=for-the-badge&logo=hugo&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
             <hr />
             <div className={styles.texts}>
-                온톨로지, 네트워크-서버, 환경개발 공부를 하고 있습니다. <br /><br />
-            </div><br /><br />
+                온톨로지, 네트워크-서버, 개발 공부를 하고 있습니다. <br /><br />
+            </div><br />
             <div className={styles.paperBox}>
-                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>2024. 06. MDPI Sensors</i>,<br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph for Advanced 3D City Model Visualization</div><br/>
-                <div className={styles.papers} onClick={() => window.open('https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002937698', '_blank')}><i>2023. 02. 멀티미디어학회</i>,<br/>SpeeKG: 온라인 강의 영상 추천을 위한 지식그래프 기반 의미적인 음성 번역 기법</div><br/>
+                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>2024. 06. MDPI Sensors.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph<br/>for Advanced 3D City Model Visualization</div><br/>
+                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2023.26.2.264', '_blank')}><i>2023. 02. Multimedia Society.</i><br/>SpeeKG: A Knowledge Graph-Based Semantic Speech Translation<br/>for Online Educational Video Recommendation</div><br/>
             </div>  
 
             <div style={endHeight} />
