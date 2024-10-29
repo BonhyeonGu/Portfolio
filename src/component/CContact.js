@@ -10,7 +10,7 @@ export default function CContact() {
         height: "20px"
     }
     const endHeight = {
-        height: "600px"
+        height: "100px"
     }
 
 

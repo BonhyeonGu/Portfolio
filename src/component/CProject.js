@@ -12,7 +12,7 @@ export default function CProject() {
         display: "inline-block"
     }
     const endHeight = {
-        height: "100px",
+        height: "80px",
         display: "inline-block"
     }
     return (

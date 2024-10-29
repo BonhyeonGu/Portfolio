@@ -21,7 +21,7 @@
 }
 
 .namekr {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .fake {
@@ -31,7 +31,7 @@
 .btn{
     width:75px;
     padding: 15px 65px;
-    margin:10px 4px;
+    margin:6px 4px;
     color: #000000;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -39,7 +39,7 @@
     position: relative;
     text-decoration: none;
     display:inline-block;
-    font-size: 90%;
+    font-size: 100%;
     border:1px solid transparent; 
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1);

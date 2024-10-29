@@ -26,7 +26,7 @@ export default function CAbout() {
     }, [currentSlide]); // 의존성 배열에 currentSlide 추가
     
     const endHeight = {
-        height: "100px",
+        height: "80px",
         display: "inline-block"
     }
 
@@ -63,13 +63,11 @@ export default function CAbout() {
             <a href="https://orcid.org/my-orcid?orcid=0009-0004-3256-7949" target="_blank"><img src="https://img.shields.io/badge/orcid-000000?style=for-the-badge&logo=orcid&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
             <hr />
             <div className={styles.texts}>
-                온톨로지, 네트워크-서버, 개발 공부를 하고 있습니다. <br /><br />
             </div><br />
             <div className={styles.paperBox}>
                 <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>2024. 06. MDPI Sensors.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph<br/>for Advanced 3D City Model Visualization</div><br/>
                 <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2023.26.2.264', '_blank')}><i>2023. 02. Multimedia Society.</i><br/>SpeeKG: A Knowledge Graph-Based Semantic Speech Translation<br/>for Online Educational Video Recommendation</div><br/>
             </div>  
-
             <div style={endHeight} />
         </div>
     )
