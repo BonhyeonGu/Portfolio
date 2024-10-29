@@ -50,16 +50,17 @@ export default function CAbout() {
             <br />
             <div className={styles.title}><Typewriter
             onInit={(typewriter) => {
-            typewriter.typeString('반갑습니다. 배고픈')
+            typewriter.typeString('배고픈')
                 .pauseFor(300)
                 .deleteChars(3)	
-                .typeString('공부에 목마른 개발자 <b>구본현</b>입니다. 온톨로지, 네트워크-서버, 개발 공부를 하고 있습니다.')
+                .typeString('공부에 목마른 <b>구본현</b>입니다. 지식그래프, 서버, 분산처리 공부를 하고있습니다.')
                 .pauseFor(2500)
                 .start();
             }}/></div>
             <hr />
             <a href="https://github.com/BonhyeonGu" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp; 
             <a href="https://docs.9bon.org/" target="_blank"><img src="https://img.shields.io/badge/dev_blog-000000?style=for-the-badge&logo=hugo&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
+            <a href="https://orcid.org/my-orcid?orcid=0009-0004-3256-7949" target="_blank"><img src="https://img.shields.io/badge/orcid-000000?style=for-the-badge&logo=orcid&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
             <hr />
             <div className={styles.texts}>
                 온톨로지, 네트워크-서버, 개발 공부를 하고 있습니다. <br /><br />
