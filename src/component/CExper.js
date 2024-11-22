@@ -65,7 +65,7 @@ export default function CExper() {
                     2021 서버팀 BeHarbor 창설
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 3 ? 1 : 0 }}>
-                    교내서버의 권한이 있는 공식 강의 지원, 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 전파했습니다.<br />
+                    교내 서버 권한이 있는 공식 지원 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 전파했습니다.<br />
                     학생들이 신청한, 또는 팀 내의 프로젝트 서비스들을 K8s, Docker를 이용해 관리했습니다.
                 </div>
             </div>
@@ -77,7 +77,7 @@ export default function CExper() {
                 className={styles.thum}
             >
                 <div className={styles.thumOut} style={{ opacity: hover !== 4 ? 1 : 0 }}>
-                        2022 교내 졸업작품 전시회, Fairday 1위
+                        2022 졸업작품 전시회, Fairday 1위
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 4 ? 1 : 0 }}>
                         Project ROKC의 하위 서비스, 유튜브 영상 지식추론을 통하여 교내 Fairday에서 최우수상을 취득 하였습니다.

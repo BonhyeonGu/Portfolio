@@ -25,33 +25,6 @@
     padding : 50px 0;
 }
 
-.boxSubImg {
-    position: relative;
-    display: "inline-block";
-    float: left;
-
-    width: 400px;
-    height: 400px;
-    background-size: 400px 400px;
-}
-
-.boxSubImgTag {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    text-align: right;
-    color: rgba(255, 255, 255, 0);
-    font-size: 0.8em;
-}
-
-.boxSubImgTag:hover {
-    color: rgb(255, 255, 255);
-    animation-duration: 1s;
-    animation-name: fd;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-    background-color: rgba(0, 0, 0, 0.507);
-}
-
 .boxInfo {
     width: 260px;
     border-style: solid none solid none;
@@ -66,8 +39,8 @@
 
 .thum, .thumIn, .thumOut {
     width: 250px;
-    height: 250px;
-    background-size: 300px 300px;
+    height: 200px;
+    background-size: 300px 200px;
 }
 
 .thum {

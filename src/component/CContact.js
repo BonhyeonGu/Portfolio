@@ -44,7 +44,7 @@ export default function CContact() {
                     className={styles.thum}
                     >
                         <div className={styles.thumOut} style={{ opacity: hover !== 1 ? 1 : 0 }}></div>
-                        <div className={styles.thumIn} style={{ opacity: hover === 1 ? 1 : 0 }}>#서버 증설작업, 2022.08.25&nbsp;&nbsp;</div>
+                        <div className={styles.thumIn} style={{ opacity: hover === 1 ? 1 : 0 }}>#2022.08.25 증설작업&nbsp;&nbsp;</div>
                     </div>
                     <div
                     onMouseEnter={() => setHover(2)}
@@ -53,7 +53,7 @@ export default function CContact() {
                     className={styles.thum}
                     >
                         <div className={styles.thumOut} style={{ opacity: hover !== 2 ? 1 : 0 }}></div>
-                        <div className={styles.thumIn} style={{ opacity: hover === 2 ? 1 : 0 }}>#추가된 H100의 설치, 2024.01.25&nbsp;&nbsp;</div>
+                        <div className={styles.thumIn} style={{ opacity: hover === 2 ? 1 : 0 }}>#2024.01.25 추가된 H100 설치&nbsp;&nbsp;</div>
                     </div>
                 </div>
 
