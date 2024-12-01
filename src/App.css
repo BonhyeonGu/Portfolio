@@ -49,10 +49,9 @@
 }
 
 
-
-/*글꼴 시작*/
 @font-face {
   font-family: "hyunygothic";
-  src: url("./font/EF_hyunygothic.ttf");
+  src: url("./font/KoPubWorld Dotum Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-/*글꼴 종료*/
