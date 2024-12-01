@@ -1,9 +1,8 @@
 ### 안내
 
-포트폴리오로 사용되는 정적 페이지입니다.
-제 서버에서 호스팅 중입니다.
-미완성
+Static pages used as portfolios.
 
 ### 글꼴
 
-http://www.earlyfont.com/ 이곳에서 라이센스 문제 없는 글꼴을 사용합니다.
+Font information
+https://noonnu.cc/font_page/33
