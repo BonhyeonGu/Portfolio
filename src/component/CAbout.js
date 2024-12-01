@@ -65,11 +65,11 @@ export default function CAbout() {
             <div className={styles.texts}>
             </div><br />
             <div className={styles.paperBox}>
-                <div className={styles.papers} ><i>Dec 2024. KMMS.</i><br/>A Digital Twin Ontology Based on Open Standards<br/> for Integrating Heterogeneous Smart City Metadata</div><br/>
-                <div className={styles.papers} ><i>Nov 2024. 국내특허출원.</i><br/>개방형 표준 기반 온톨로지를 가지는 센서 메타데이터 처리 장치<br/></div><br/>
-                <div className={styles.papers} ><i>Dec 2024. KMMS.</i><br/>Digital Twin: Smart City platform development with Personal Thermal Comfort<br/></div><br/>
-                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>Jun 2024. MDPI Sensors.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph<br/>for Advanced 3D City Model Visualization</div><br/>
-                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2023.26.2.264', '_blank')}><i>Feb 2023. KMMS.</i><br/>SpeeKG: A Knowledge Graph-Based Semantic Speech Translation<br/>for Online Educational Video Recommendation</div><br/>
+                <div className={styles.papers} ><i>Dec 2024.</i><br/>A Digital Twin Ontology Based on Open Standards for Integrating Heterogeneous Smart City Metadata</div><br/>
+                <div className={styles.papers} ><i>Nov 2024. 국내특허출원.</i><br/>개방형 표준 기반 온톨로지를 가지는 센서 메타데이터 처리 장치</div><br/>
+                <div className={styles.papers} ><i>Dec 2024.</i><br/>Digital Twin: Smart City platform development with Personal Thermal Comfort</div><br/>
+                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>Jun 2024.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph for Advanced 3D City Model Visualization</div><br/>
+                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2023.26.2.264', '_blank')}><i>Feb 2023.</i><br/>SpeeKG: A Knowledge Graph-Based Semantic Speech Translation for Online Educational Video Recommendation</div><br/>
             </div>  
             <div style={endHeight} />
         </div>

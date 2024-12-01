@@ -20,5 +20,9 @@ export default function FixedMenu() {
         <Link to="Contact" spy={true} smooth={true}>
             <a href="#" className={styles.btn}>Contact</a>
         </Link>
+        
+        <div className={styles.smallBox}>
+            <a href="https://github.com/BonhyeonGu/Portfolio" className={styles.btn} target="_blank" rel="noopener noreferrer">a repository of this</a>
+        </div>
     </div>
 }

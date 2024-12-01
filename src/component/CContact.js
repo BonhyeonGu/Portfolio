@@ -24,13 +24,13 @@ export default function CContact() {
                 <div className={styles.boxSubText}>
                     <div>
                         <div className={styles.boxInfo}>
-                            <i class="fas fa-envelope fa-2x"></i>&nbsp;<span className={styles.infoText}>bonhyeon.gu@9bon.org</span>
-                        </div><br /><br />
+                            <i class="fas fa-envelope fa-1x"></i>&nbsp;&nbsp;<span className={styles.infoText}>bonhyeon.gu@9bon.org</span>
+                        </div><br />
                         {/*<div className={styles.boxInfo}>
                             <i class="fas fa-phone fa-2x"></i>&nbsp;<span className={styles.infoText}></span>
                         </div><br /><br />*/}
                         <div className={styles.boxInfo}>
-                            <i class="fas fa-home fa-2x"></i>&nbsp;<span className={styles.infoText}>Busan Dongnae</span>
+                            <i class="fas fa-home fa-1x"></i>&nbsp;&nbsp;<span className={styles.infoText}>Busan Dongnae</span>
                         </div><br /><br />
                     </div>
                 </div>
