@@ -4,9 +4,11 @@ import Typewriter from 'typewriter-effect';
 
 export default function CAbout() {
     const slideImages = [
-        { url: 'img/a1.png', caption: '슬라이드 1' },
-        { url: 'img/a2.png', caption: '슬라이드 2' },
-        { url: 'img/a2023_11_16.png', caption: '슬라이드 3' },
+        { url: 'img/a2024_08_13.png', caption: 's1' },
+        { url: 'img/a2024_12_02.png', caption: 's1' },
+        { url: 'img/a2.png', caption: 's2' },
+        { url: 'img/a1.png', caption: 's1' },
+        { url: 'img/a2023_11_16.png', caption: 's3' }
     ];
 
     // 현재 슬라이드 인덱스를 위한 상태
@@ -59,15 +61,14 @@ export default function CAbout() {
             }}/></div>
             <hr />
             <a href="https://github.com/BonhyeonGu" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp; 
-            <a href="https://docs.9bon.org/" target="_blank"><img src="https://img.shields.io/badge/dev_blog-000000?style=for-the-badge&logo=hugo&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
             <a href="https://orcid.org/0009-0004-3256-7949" target="_blank"><img src="https://img.shields.io/badge/orcid-000000?style=for-the-badge&logo=orcid&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
+            <a href="https://docs.9bon.org/" target="_blank"><img src="https://img.shields.io/badge/dev_blog-000000?style=for-the-badge&logo=hugo&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
             <hr />
             <div className={styles.texts}>
             </div><br />
             <div className={styles.paperBox}>
-                <div className={styles.papers} ><i>Dec 2024.</i><br/>A Digital Twin Ontology Based on Open Standards for Integrating Heterogeneous Smart City Metadata</div><br/>
+                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2024.27.11.1326', '_blank')}><i>Dec 2024.</i><br/>A Digital Twin Ontology Based on Open Standards for Integrating Heterogeneous Smart City Metadata</div><br/>
                 <div className={styles.papers} ><i>Nov 2024. 국내특허출원.</i><br/>개방형 표준 기반 온톨로지를 가지는 센서 메타데이터 처리 장치</div><br/>
-                <div className={styles.papers} ><i>Dec 2024.</i><br/>Digital Twin: Smart City platform development with Personal Thermal Comfort</div><br/>
                 <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>Jun 2024.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph for Advanced 3D City Model Visualization</div><br/>
                 <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2023.26.2.264', '_blank')}><i>Feb 2023.</i><br/>SpeeKG: A Knowledge Graph-Based Semantic Speech Translation for Online Educational Video Recommendation</div><br/>
             </div>  

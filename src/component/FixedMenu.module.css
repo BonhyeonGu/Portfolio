@@ -3,7 +3,8 @@
     background: #ffffff;
     z-index: 20;
     top: 0%;
-    width: 250px;
+    left: 17%;
+    width: 200px;
     height: 100%;
     text-align: center;
 }
@@ -11,7 +12,7 @@
 .smallBox {
     position: relative;
     top: 10%;
-    width: 250px;
+    width: 200px;
     height: 100%;
     text-align: center;
     font-size: 10px;
@@ -19,8 +20,8 @@
 
 .profile {
     width: 150px;
-    padding: 50px 0px;
-    margin:10px 4px;
+    padding: 40px 0px;
+    margin:10px 0px;
 }   
 
 .titleText {
@@ -30,7 +31,11 @@
 }
 
 .namekr {
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+.nameen {
+    font-size: 1.0em;
 }
 
 .fake {
@@ -39,7 +44,7 @@
 
 .btn{
     width:75px;
-    padding: 15px 65px;
+    padding: 15px 45px;
     margin:6px 4px;
     color: #000000;
     font-family: sans-serif;
@@ -62,8 +67,8 @@
     z-index:-1;
     width: 0%;
     height:1px;
-    background: #6098FF;
-    box-shadow: inset 0px 0px 0px #6098FF;
+    background: #6b7483;
+    box-shadow: inset 0px 0px 0px #6b7483;
     display: block;
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
@@ -81,7 +86,7 @@
     z-index:-1;
     width: 0%;
     height:1px;
-    background: #6098FF;
+    background: #6b7483;
     -webkit-transition: all 0.3s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.3s cubic-bezier(.5, .24, 0, 1)
 }
@@ -89,6 +94,6 @@
     width:100%;
 }
 .btn:hover{
-    border-left:1px solid #6098FF;
-    border-right:1px solid #6098FF;
+    border-left:1px solid #6b7483;
+    border-right:1px solid #6b7483;
 }
