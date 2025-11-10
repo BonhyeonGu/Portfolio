@@ -52,7 +52,7 @@ export default function CProject() {
                     className={styles.thum}
                 >
                     <div className={styles.thumOut} style={{ opacity: hover !== 2 ? 1 : 0 }} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                        Kubeflow
+                        교내 딥러닝을 위한 GPU 서버 클러스터 구축
                     </div>
                     <div className={styles.thumIn}
                         style={{
@@ -60,7 +60,7 @@ export default function CProject() {
                             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/b22.png)`
                         }}
                         onClick={() => window.open('https://github.com/kubeflow/kubeflow', '_blank')}>
-                        다수의 GPU서버와 Kubernetes를 이용한 Kuberflow 분산처리-머신러닝 환경 배포.
+                        다수의 GPU서버와 Kuberflow를 이용한  분산처리-머신러닝 환경 배포.
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ export default function CProject() {
                     className={styles.thum}
                 >
                     <div className={styles.thumOut} style={{ opacity: hover !== 3 ? 1 : 0 }} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                        CityGML To RDF
+                        부산에코델타시티 스마트 시티 온톨로지 구현
                     </div>
                     <div className={styles.thumIn}
                         style={{
@@ -92,7 +92,7 @@ export default function CProject() {
                     className={styles.thum}
                 >
                     <div className={styles.thumOut} style={{ opacity: hover !== 4 ? 1 : 0 }} onClick={() => window.open('https://github.com/BonhyeonGu/Project-ROKC', '_blank')}>
-                        STA-Sensor Ontology
+                        실시간 갱신 가능한 센서 온톨로지 구현
                     </div>
                     <div className={styles.thumIn}
                         style={{

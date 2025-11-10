@@ -62,15 +62,14 @@ export default function CAbout() {
             <hr />
             <a href="https://github.com/BonhyeonGu" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp; 
             <a href="https://orcid.org/0009-0004-3256-7949" target="_blank"><img src="https://img.shields.io/badge/orcid-000000?style=for-the-badge&logo=orcid&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
-            <a href="https://docs.9bon.org/" target="_blank"><img src="https://img.shields.io/badge/dev_blog-000000?style=for-the-badge&logo=hugo&logoColor=white" className={styles.shield} /></a>&nbsp;&nbsp;
             <hr />
             <div className={styles.texts}>
             </div><br />
             <div className={styles.paperBox}>
                 {/*<div className={styles.papers} ><i>Feb 2025.</i><br />동아대 컴퓨터공학과 석사졸업</div><br />*/}
-                <div className={styles.papers} ><i>Jan 2025.</i><br />IEEE IoT: 심사중</div><br />
-                <div className={styles.papers} ><i>Dec 2024.</i><br />국내특허출원: 개방형 표준 기반 온톨로지를 가지는 센서 메타데이터 처리 장치</div><br />
-                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2024.27.11.1326', '_blank')}><i>Nov 2024.</i><br />KMMS: A Digital Twin Ontology Based on Open Standards for Integrating Heterogeneous Smart City Metadata</div><br />
+                <div className={styles.papers} ><i>Jan 2025.</i> IEEE IoT: 심사중</div><br />
+                <div className={styles.papers} ><i>Dec 2024.</i> 국내특허출원: 개방형 표준 기반 온톨로지를 가지는 센서 메타데이터 처리 장치</div><br />
+                <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2024.27.11.1326', '_blank')}><i>Nov 2024.</i> KMMS: A Digital Twin Ontology Based on Open Standards for Integrating Heterogeneous Smart City Metadata</div><br />
                 {/* <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>Jun 2024.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph for Advanced 3D City Model Visualization</div><br/> */}
                 {/* <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2023.26.2.264', '_blank')}><i>Feb 2023.</i><br/>SpeeKG: A Knowledge Graph-Based Semantic Speech Translation for Online Educational Video Recommendation</div><br/> */}
             </div>  

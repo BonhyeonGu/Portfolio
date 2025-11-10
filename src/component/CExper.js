@@ -62,10 +62,10 @@ export default function CExper() {
                 className={styles.thum}
             >
                 <div className={styles.thumOut} style={{ opacity: hover !== 3 ? 1 : 0 }}>
-                    2021 서버팀 BeHarbor 창설
+                    2021 교내 서버팀 창설
                 </div>
                 <div className={styles.thumIn} style={{ opacity: hover === 3 ? 1 : 0 }}>
-                    교내 서버 권한이 있는 공식 지원 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 전파했습니다.<br />
+                    교내 서버 권한이 있는 공식 지원 서버팀 BeHarbor를 창설하고 네트워크-서버 기술을 스터디 했습니다.<br />
                     학생들의 팀 프로젝트 서비스들을 K8s, Docker를 이용해 관리했습니다.
                 </div>
             </div>
