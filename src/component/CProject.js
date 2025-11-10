@@ -100,7 +100,7 @@ export default function CProject() {
                             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/b42.png)`
                         }}
                         onClick={() => window.open('https://paper.9bon.org/ontologies/sensorthings/1.1', '_blank')}>
-                        OGC 센서 개방형 표준 STA의 온톨로지(in OWL)<br/> 설계 및 정량적 성능 평가, 동적 지식그래프 검증
+                        OGC 센서 개방형 표준 STA의 온톨로지<br/> 설계 및 정량적 성능 평가, DKG 검증
                     </div>
                 </div>
             </div>

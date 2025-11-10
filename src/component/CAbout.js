@@ -55,7 +55,7 @@ export default function CAbout() {
             typewriter.typeString('배고픈')
                 .pauseFor(300)
                 .deleteChars(3)
-                .typeString('공부에 목마른 학생 <b>구본현</b>입니다. 관심사는 서버-네트워크 그리고 온톨로지입니다.')
+                .typeString('공부에 목마른 학생 <b>구본현</b>입니다. 관심사는 OPS와 XAI입니다.')
                 .pauseFor(2500)
                 .start();
             }}/></div>
@@ -66,8 +66,8 @@ export default function CAbout() {
             <div className={styles.texts}>
             </div><br />
             <div className={styles.paperBox}>
+                <div className={styles.papers} ><i>Sep 2025.</i> IEEE IoT: 심사중</div><br />
                 {/*<div className={styles.papers} ><i>Feb 2025.</i><br />동아대 컴퓨터공학과 석사졸업</div><br />*/}
-                <div className={styles.papers} ><i>Jan 2025.</i> IEEE IoT: 심사중</div><br />
                 <div className={styles.papers} ><i>Dec 2024.</i> 국내특허출원: 개방형 표준 기반 온톨로지를 가지는 센서 메타데이터 처리 장치</div><br />
                 <div className={styles.papers} onClick={() => window.open('https://doi.org/10.9717/kmms.2024.27.11.1326', '_blank')}><i>Nov 2024.</i> KMMS: A Digital Twin Ontology Based on Open Standards for Integrating Heterogeneous Smart City Metadata</div><br />
                 {/* <div className={styles.papers} onClick={() => window.open('https://doi.org/10.3390/s24123761', '_blank')}><i>Jun 2024.</i><br/>Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph for Advanced 3D City Model Visualization</div><br/> */}
